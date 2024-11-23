@@ -3,6 +3,14 @@
 {
   "compileOnSave": false,
   "compilerOptions": {
+    "paths": {
+      "angular-ui-plusify": [
+        "./dist/angular-ui-plusify"
+      ],
+      "datetime-picker": [
+        "./dist/datetime-picker"
+      ]
+    },
     "outDir": "./dist/out-tsc",
     "strict": true,
     "noImplicitOverride": true,
