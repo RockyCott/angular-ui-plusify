@@ -4,40 +4,50 @@ A modular library of components and directives for Angular, designed to enhance 
 
 ## 🚧 Project Status
 
-We are building Angular UI Plusify with the date-picker as its first component. This library is designed to grow, adding more UI components and useful directives in the future.
+Angular UI Plusify is in its early stages of development, and the **Datetime Picker** is its first component. This library aims to grow by adding more UI components and directives in the future, making it a one-stop solution for Angular UI development.
 
+### Why Angular UI Plusify?
+The **Datetime Picker** is based on the original [`@angular-material-components/datetime-picker`](https://github.com/h2qutc/angular-material-components) but modernized for **Angular 16+**. This ensures compatibility and support for the latest Angular Material updates, providing developers with a reliable, up-to-date solution.
+
+---
 ## 🎯 Library Goals
 
 - **Modularity:** Import only what you need. Each component and directive is fully independent.
-- **Compatibility:** Built for Angular 19+ and integrates seamlessly into any tech stack.
+- **Compatibility:** Built for **Angular 16+** and integrates seamlessly with Angular Material.
 - **Customization:** Fully customizable to adapt to any design system.
-Scalability: Suitable for projects of all sizes.
+- **Scalability:** Suitable for projects of all sizes.
 - **Future-proof:** Expandable with new components and directives to keep up with modern UI trends.
 
 ---
 
-## Components
+## 🛠️ Components
 
-### Datetime Picker
+### Datetime Picker 📅
 
-Choose the version corresponding to your Angular version:
+An advanced datetime picker built on Angular Material, designed to simplify date and time selection in your projects.
 
- Angular     | datetime-picker
- ----------- | -------------------
- 19          | 19.x+
+#### Key Features:
+- Fully integrated with **Angular Material** design system.
+- Supports **date**, **time**, and **datetime** selection.
+- Customizable themes and formats.
+- Continuous support and updates for Angular versions.
 
+#### Compatibility Matrix:
+| Angular Version | datetime-picker Version |
+|------------------|-------------------------|
+| 16+             | 0.0.1+                   |
 
-### Installation
+---
 
-To use the datetime-picker in your project install the package via:
+## 🌟 Get Involved
 
-```
-npm install --save  @angular-ui-plusify/datetime-picker
-```
+We welcome contributions! Feel free to:
 
-Feel free to open the issues or provide a PR.
+- Open issues
+- Submit PRs
+- Share feedback
 
-If you like this project, support angular-ui-suplify by starring⭐.
+If you like this project, please support Angular UI Plusify by starring ⭐ the repository.
 
 ## License
 
