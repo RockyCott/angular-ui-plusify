@@ -35,7 +35,7 @@ import {
 @Component({
   selector: 'ngx-plusify-timepicker',
   templateUrl: './timepicker.component.html',
-  styleUrls: ['./timepicker.component.scss'],
+  styleUrls: ['./timepicker.component.scss', './datetime-picker.styles.scss'],
   host: {
     class: 'ngx-plusify-timepicker',
   },
